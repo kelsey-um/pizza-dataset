@@ -1,0 +1,13 @@
+train: ../data-pizza/train/images
+val: ../data-pizza/valid/images
+test: ../data-pizza/test/images
+
+nc: 4
+names: ['basil', 'olive', 'pepperoni', 'pizza']
+
+roboflow:
+  workspace: advancedcvgroup
+  project: pizza-vigor
+  version: 6
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/advancedcvgroup/pizza-vigor/dataset/6
